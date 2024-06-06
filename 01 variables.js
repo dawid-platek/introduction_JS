@@ -14,8 +14,9 @@ const streetNumber = '10/13'
 const name = 'Joanna'
 const surname = 'Popala'
 
-
+// I zapis
 console.log(
 	'Adres dostawy paczki: ' + city + ',' + ' ' + street + ' ' + streetNumber + '.' + ' Nadawca: ' + name + ' ' + surname
 )
+// II zapis
 console.log(`Adres dostawy paczki: ${city}, ${street} ${streetNumber}. Nadawca: ${name} ${surname}`) // zapis przy pomocy backticka
