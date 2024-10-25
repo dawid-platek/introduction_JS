@@ -11,6 +11,8 @@ console.log(results);
 const results2 = add(5,9)
 console.log(results2);
 
+const results3 = add(5,9)
+console.log(results2);
 
 // II przykład
 function sayHello(name, lastName){
