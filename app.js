@@ -1,10 +1,9 @@
-const sayHello = name => {
-const p = document.querySelector('p');
-p.innerHTML = `Witaj, ${name}!`};
+const input1 = document.querySelector('#number1');
+const input2 = document.querySelector('#number2');
+const addButton = document.querySelector('#add');
+const subButton = document.querySelector('#sub');
 
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+const inputs = document.querySelectorAll('input');
 
-input.addEventListener('change', function(event) {sayHello(event.target.value)});
+console.log(inputs);
 
-button.addEventListener('click', () => {sayHello(input.value)});
