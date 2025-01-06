@@ -1,9 +1,10 @@
-const input1 = document.querySelector('#number1');
-const input2 = document.querySelector('#number2');
-const addButton = document.querySelector('#add');
-const subButton = document.querySelector('#sub');
+const age = ''
 
-const inputs = document.querySelectorAll('input');
+if (age == '') {
+  document.write('Możesz wejść')
+} 
 
-console.log(inputs);
+else {
+document.write('Nie możesz wejść')
+}
 
